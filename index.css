@@ -135,6 +135,7 @@ body{
 
 .container.active .toggle-conatainer{
       transform: translateX(-100%);
+      z-index: 5;
 }
 .container.active .SIGN-UP{
       z-index: 1;
@@ -159,7 +160,6 @@ body{
       }
   }
 .container.active .sign-in{
-      transform: translateX(100%);
       z-index: 1;
       transition: all 0.6s ease-in-out;
 }
